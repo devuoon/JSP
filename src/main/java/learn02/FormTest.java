@@ -1,4 +1,4 @@
-package j0520;
+package learn02;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
