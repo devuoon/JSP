@@ -29,13 +29,12 @@ public class cal extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
         if(op.equals("+") || op.equals("-") || op.equals("*")){
-            out.println("계산 결과: " + result);
+            out.append("<html><body><h2>간단한 계산기 서블릿</h2>")
+            .append("계산 결과: " + result + "</body></html>");
         } else if(op.equals("/")){
-            out.println("계산 결과: " + re);
+            out.append("<html><body><h2>간단한 계산기 서블릿</h2>")
+            .append("계산 결과: " + re + "</body></html>");
         }
-
-
-
     }
 
     @Override
