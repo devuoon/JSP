@@ -33,7 +33,6 @@ public class ApplicationTest extends HttpServlet {
 
         // 계산
         if(op.equals("=")) {
-
             int x = (Integer) application.getAttribute("value");
             int y = value;
             String operator = (String) application.getAttribute("op");
@@ -56,8 +55,6 @@ public class ApplicationTest extends HttpServlet {
             application.setAttribute("value", value);
             application.setAttribute("op", op);
         }
-
-
         /*
          * // 확인
          * System.out.println("data: " + str);
