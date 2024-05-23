@@ -11,5 +11,6 @@ public class CookieSvt extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 쿠키생성
         Cookie cookie = new Cookie("cook","cData");
+        Cookie cookie2 = new Cookie("","");
     }
 }
