@@ -38,7 +38,7 @@ public class ApplicationTest extends HttpServlet {
             String operator = (String) application.getAttribute("op");
 
             int result = 0;
-
+x
             if(operator.equals("+")) {
                 result = x + y;
             } else if(operator.equals("-")) {
